@@ -19,7 +19,7 @@ This language pack contains Nepali translations for Flarum (compatible with `1.6
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/nepali:dev-master
+composer require "flarum-lang/nepali:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
