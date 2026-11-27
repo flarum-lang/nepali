@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/nepali",
+	"description": "Nepali Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Nepali language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/nepali",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"ne-locale",
-		"nepali-locale",
-		"nepali"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/nepali",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/nepali/issues",
+		"forum": "https://discuss.flarum.org/d/40205",
 		"source": "https://github.com/flarum-lang/nepali"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Nepali",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "ne",
-			"title": "Nepali"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "नेपाली"
 		}
 	}
 }
